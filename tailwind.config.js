@@ -7,8 +7,7 @@ module.exports = {
   purge: {
     content: [
       './*.php',
-      'src/*.php',
-      'blocks/*.php'
+      'src/*.php'
     ]
   },
   theme: {
