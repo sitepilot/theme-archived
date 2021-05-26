@@ -1,4 +1,4 @@
-# Theme
+# Starter Theme
 
 A WordPress starter theme for developing custom websites. This starter theme is used to speed up development and integrates with our [Sitepilot](https://github.com/sitepilot/sitepilot) plugin.
 
