@@ -61,7 +61,7 @@ final class Theme
      * 
      * @return void
      */
-    public function action_enqueue_scripts()
+    public function action_enqueue_scripts(): void
     {
         $version = strpos($this->theme->version, '-dev') ? time() : $this->theme->version;
 
@@ -77,7 +77,7 @@ final class Theme
      *
      * @return void
      */
-    public function action_add_theme_support()
+    public function action_add_theme_support(): void
     {
         // Disable Custom Colors
         add_theme_support('disable-custom-colors');
