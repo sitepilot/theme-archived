@@ -20,5 +20,5 @@ jobs:
       #  env:
       #    DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
       #  with:
-      #    args: replace-version ./style.css && rclone sync ./ remote:sites/michascatering/public/wp-content/themes/michascatering --config="./deploy.conf" --exclude-from="./.deployignore"
+      #    args: replace-version ./style.css && rclone sync ./ remote:sites/<site-name>/public/wp-content/themes/<theme-name> --config="./deploy.conf" --exclude-from="./.deployignore"
       #  if: github.ref == 'refs/heads/main'
