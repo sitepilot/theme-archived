@@ -1,6 +1,6 @@
 {
     "name": "sitepilot/theme",
-    "description": "A starter theme used by Sitepilot for developing custom WordPress websites.",
+    "description": "WordPress starter theme with a modern development workflow.",
     "type": "project",
     "license": "GPL-3.0-or-later",
     "minimum-stability": "dev",
