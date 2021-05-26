@@ -1,0 +1,18 @@
+{
+    "name": "sitepilot/theme",
+    "description": "A starter theme used by Sitepilot for developing custom WordPress websites.",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Sitepilot\\Theme\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ]
+    }
+}
